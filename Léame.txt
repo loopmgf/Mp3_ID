@@ -1,0 +1,27 @@
+-->Descripción general del programa<--
+
+-	El programa permite parsear cualquier mp3 y así obtener información sobre el mismo,
+	tanto técnica (audio), como de conocimiento general (autor, disco, género, etc). 
+
+-	Tanto los nombres de los mp3 como el del archivo de salida se ven límitados a 8
+	caractéres, cualquier nombre de archivo que contenga un número mayor de entradas,
+	no podrá abrise.
+
+-	El sistema de errores empleado permite reconocer errores por fálta de parámetros y
+	por extensión de los mismos (deben ser .mp3).
+
+
+
+-->Modo de invocación<--
+
+-	El programa se debe ejecutar por consola en el directorio donde fue creado.
+	Si el proyecto adjuntado no es modificado, la invocación por consola sería:
+	
+	unidad:\....\TP5_GR2\mp3id>mp3id archivo1.mp3 ...archivon.mp3 Salida.txt
+
+
+-	Los mp3 que posean nombres con espacios, deben ingresarse de la siguiente forma:
+	
+	unidad:\....\TP5_GR2\mp3id>mp3id "archivo 1.mp3" ..."archivo n.mp3" Salida.txt
+
+
